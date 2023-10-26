@@ -1,0 +1,54 @@
+button {
+    font-size: large;
+    margin: 10px;
+    height: 3em;
+    width: 3em;
+    border: 0;
+    border-radius: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.wrapper {
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.orange {
+    background-color: rgb(222, 105, 21);
+    color: white;
+}
+
+.gray{
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+.result {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    margin-left: 0.1em;
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2em;
+    font-size: 1em;
+}
